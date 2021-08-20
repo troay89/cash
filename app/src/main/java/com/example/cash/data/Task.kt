@@ -8,6 +8,7 @@ import kotlinx.parcelize.Parcelize
 import java.text.DateFormat
 
 @Entity(tableName = "task_table")
+
 @Parcelize
 data class Task(
     val name: String,
